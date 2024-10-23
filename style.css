@@ -82,3 +82,10 @@ input:focus {
   text-align: center;
   text-transform: uppercase;
 }
+
+@media only screen and (max-width: 700px) {
+  #player-setup {
+    width: 80%;
+    grid-template-columns: auto;
+  }
+}
